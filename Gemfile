@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-ruby '2.3.1'
+ruby '2.3.3'
 
 gem 'slack-ruby-client', github: 'slack-ruby/slack-ruby-client'
 gem 'slack-ruby-bot-server'
@@ -17,6 +17,7 @@ gem 'stripe'
 gem 'kaminari-grape'
 gem 'giphy'
 gem 'hashie', '3.4.6'
+gem 'unicorn', '~> 5.2.0'
 
 group :development, :test do
   gem 'rake', '~> 10.4'
